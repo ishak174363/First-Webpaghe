@@ -1,0 +1,105 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap'); */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Fira+Sans&display=swap');
+
+body{
+    /* font-family: 'Baloo Bhaijaan 2', cursive; */
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0;
+}
+.ps-3{
+    padding-left: 3rem;
+}
+.flexible-container{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+    margin-left: 5%;
+}
+.half-width img{
+    width: 90%;
+}
+.link-button{
+    text-decoration: none;
+    text-transform: uppercase;
+    background-image: linear-gradient(rgb(255, 152, 34),rgba(216, 57, 29, 0.856));
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.3rem;
+}
+p{
+    margin: 30px 0px;
+    padding-right: 50px;
+}
+.drem-p{
+    margin-right: 80px;
+}
+
+.orange-color{
+    color: orangered;
+
+}
+.top-banner{
+    background-image: url('./img/top-banner.png');
+    background-repeat: no-repeat;
+  
+}
+.dream-big{
+    background-image: url(./img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.experience-area{
+    background-image: url(./img/exp-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 50px;
+}
+.experience-item{
+    width: 40%;
+   margin: 0 5%;
+   padding-left: 2%;
+   border-radius: 5px;
+   box-shadow: 5px 10px 30px rgb(48, 48, 28);
+}
+.webdev-exp1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(orange,red);
+    border-image-slice: 1;
+}
+.webdev-exp2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(rgb(32, 173, 255),#1b5edb);
+    border-image-slice: 1;
+}
+footer p{
+    margin: 20px;
+    margin-top: 5%;
+    margin-bottom: 0px;
+    text-align: center;
+    color: white;
+    padding: 5px 0px;
+}
+footer{
+   background-color: rgba(22, 20, 20, 0.651);
+}
+
+
+@media only screen and (max-width: 800px){
+    h1{
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+    h2{
+        font-size: 1rem;
+    }
+}
